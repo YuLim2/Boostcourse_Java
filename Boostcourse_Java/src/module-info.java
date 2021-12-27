@@ -1,0 +1,2 @@
+module Boostcourse_Java {
+}
