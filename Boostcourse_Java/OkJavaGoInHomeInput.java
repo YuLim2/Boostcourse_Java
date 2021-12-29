@@ -9,8 +9,8 @@ public class OkJavaGoInHomeInput {
  
     public static void main(String[] args) {
          
-        String id = JOptionPane.showInputDialog("Enter a ID");
-        String bright = JOptionPane.showInputDialog("Enter a Bright level");
+    	String id = args[0];
+    	Strign bright = args[1];
          
         // Elevator call 
         Elevator myElevator = new Elevator(id);
